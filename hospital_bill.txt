@@ -1,0 +1,35 @@
+========== OP TICKET ==========
+Hospital :CityCare Hospital
+Date & Time:12-09-2025 18:46:08
+Patient  :priya| Age:20
+Doctor   :aravind(dental)
+OP Fee   : Rs.200.0
+===============================+
+
+====== PHARMACY BILL ======
+Hospital :CityCare Hospital
+Date & Time:12-09-2025 18:46:08
+dolox5=Rs.50.0
+Total Medicines: Rs.50.0
+===========================
+
+====== OVERALL BILL ======
+Hospital :CityCare Hospital
+Date & Time:12-09-2025 18:46:08
+Patient  :priya| Age:20
+Doctor   :aravind(dental)
+---------------------------OP Fee: Rs.200.0
+Medicines: Rs.50.0
+Lab Tests:
+-cleaning=Rs.500.0
+-blood=Rs.200.0
+-bp=Rs.200.0
+---------------------------
+Subtotal: Rs.1150.0
+CGST (5%): Rs.57.5
+SGST (5%): Rs.57.5
+===========================
+Grand Total: Rs.1265.0
+===========================
+
+END OF BILL
