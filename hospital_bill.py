@@ -91,37 +91,3 @@ with open("hospital_bill.txt","w") as set:
     generate_overall_bill(name, age, doctor, dept, op_total, med_total, tests,set)
 
 print("\nBill saved to 'hospital_bill.txt'")
-
-"""
-========== OP TICKET ==========
-Hospital : CityCare Hospital
-Date & Time: 10-09-2025 22:25:35
-Patient  : Priya | Age: 20
-Doctor   : Pranav ( Cardio )
-OP Fee   : Rs. 250.0
-===============================
-====== PHARMACY BILL ======
-Hospital : CityCare Hospital
-Date & Time: 10-09-2025 22:25:35
-Dolo x 5 = Rs. 30.0
-Total Medicines: Rs. 30.0
-===========================
-====== OVERALL BILL ======
-Hospital : CityCare Hospital
-Date & Time: 10-09-2025 22:25:35
-Patient  : Priya | Age: 20
-Doctor   : Pranav ( Cardio )
----------------------------
-OP Fee: Rs. 250.0
-Medicines: Rs. 30.0
-Lab Tests:
-- ECG = Rs. 40.0
-- Blood Test = Rs. 100.0
----------------------------
-Subtotal: Rs. 420.0
-CGST (5%): Rs. 21.0
-SGST (5%): Rs. 21.0
-===========================
-Grand Total: Rs. 462.0
-===========================
-"""
